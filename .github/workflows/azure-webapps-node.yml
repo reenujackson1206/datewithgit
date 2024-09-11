@@ -33,5 +33,5 @@ jobs:
     - name: Print details
       run: |
         chmod +x hey.sh
-        ./hey.sh ${{ inputs.region }} ${{ inputs.environment }}
+        bash ./hey.sh ${{ inputs.region }} ${{ inputs.environment }}
      
