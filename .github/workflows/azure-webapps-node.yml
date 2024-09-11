@@ -31,5 +31,6 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Print details
+      run: chmod +x hey.sh
       run: ./hey.sh ${{ inputs.region }} ${{ inputs.environment }}
      
