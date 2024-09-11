@@ -43,8 +43,7 @@ jobs:
     - name: Version check
       run: |
         java -version
-	npm list
-        node -v
+	node -v
     - name: Print details
       run: |
         chmod +x hey.sh
