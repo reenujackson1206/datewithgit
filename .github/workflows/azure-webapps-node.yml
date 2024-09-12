@@ -39,7 +39,6 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '12.14.1'
-        cache: 'npm'
     - name: Version check
       run: |
         java -version
