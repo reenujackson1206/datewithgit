@@ -23,6 +23,10 @@ jobs:
           python -m pip install --upgrade pip
           pip install ansible
 
+      - name: Check whoami
+        run: |
+          whoami
+
       - name: Run Ansible Playbook to Install Tools
         env:
           ANSIBLE_HOST_KEY_CHECKING: 'False'
